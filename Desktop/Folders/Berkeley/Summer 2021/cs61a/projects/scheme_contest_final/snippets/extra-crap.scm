@@ -1,0 +1,17 @@
+(define (draw-square size shade)
+  (color shade)
+  (begin_fill)
+  (repeat 4 (lambda () (forward size) (right 90)))
+  (end_fill)
+)
+
+(define (triangle fn size shade)
+    (color shade)
+    (begin_fill)
+    (repeat 3 (lambda () (fn) (right 120)))
+    (end_fill)
+)
+
+(define (regular-triangle size shade)
+    (triangle (lambda () (forward size)) size shade)
+)
