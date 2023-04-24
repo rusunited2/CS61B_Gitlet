@@ -1,0 +1,38 @@
+> init
+<<<
++ hello.txt hey.txt
++ goodbye.txt bye.txt
+> add hello.txt
+<<<
+> add goodbye.txt
+<<<
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+hello.txt
+goodbye.txt
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<
+> commit "HeyBye"
+<<<
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+
+<<<

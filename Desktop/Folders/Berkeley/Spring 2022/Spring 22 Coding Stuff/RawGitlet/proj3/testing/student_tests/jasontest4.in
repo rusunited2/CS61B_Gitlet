@@ -1,0 +1,20 @@
+> init
+<<<
++ hello.txt hey.txt
++ goodbye.txt bye.txt
+> add hello.txt
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+hello.txt
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+goodbye.txt
+
+<<<
